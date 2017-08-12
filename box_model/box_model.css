@@ -1,0 +1,44 @@
+div {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+  border: 5px solid black;
+  box-sizing: border-box;
+
+}
+
+#new_div > p{
+  background-color: #39cccc;
+  min-height: 10px;
+  max-height: 400px;
+
+}
+
+.image-1-container {
+  width: 200px;
+  height: 600px;
+  background-color: black
+}
+
+.image-2-container {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  background-color: black
+}
+
+.image-1-container img {
+  width: 100%;
+}
+
+p {
+  background-color: #7fdbff;
+}
